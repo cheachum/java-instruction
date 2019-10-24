@@ -1,0 +1,18 @@
+package ui;
+
+import java.io.IOException;
+import java.nio.file.*;
+
+public class FileIOApp {
+
+	public static void main(String[] args) throws IOException {
+		//p.463 create directory
+		String dirString = "c:temp/temp/sub1/sub2";
+		Path dirPath = Paths.get(dirString);
+		if (Files.notExists(dirPath)) {
+			Files.createDirectories(dirPath);
+		}
+
+	}
+
+}

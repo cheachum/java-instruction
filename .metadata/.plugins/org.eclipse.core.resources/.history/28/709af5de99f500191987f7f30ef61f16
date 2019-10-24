@@ -1,0 +1,99 @@
+package ui;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import business.User;
+import util.Console;
+
+public class PrsConsoleApp {
+			private static List<String> users = new ArrayList<>();
+			User u1 = new User(1, "milliepuppin", "tatertot", "millie", "oestreicher", 612-555-6666 ,"milliepuppin@gmail", y, n);
+			User u2 = new User(2, "osizzle", "pillow", "david", "oestreicher", 513-666-9999,"davidoestreicher@gmail", y, n);
+			User u3 = new User("cheachum", "apple", "chea", "chum", 507-380-4254, "cheachum@gmail", y, n);
+			
+			
+			
+			
+			public static void main(String[] args, String user) {
+				users.add(u1);
+				users.add(u2);
+				users.add(u3);
+				
+				System.out.println("Welcome to the PRS-Console App");
+				String command = "";
+				while (!command.equalsIgnoreCase("exit")) {
+					command = Console.getString(getDisplayMenu());
+					if (command.equalsIgnoreCase("show"));
+					switch (command.toLowerCase()) {
+					case "show": 
+						//list items
+						//each item on it's own line
+						//prefix with index # +1
+						for ( int i=0; i< users.size(); i++) {
+							System.out.println((i+1+". "+users.get(i)));
+						}
+						break;
+					case "add": 
+						// add an item
+						if (users.size()>3) {
+							System.out.println("Added User");
+						}
+						else {
+						String item = Console.getString("name:  ");
+						users.add(user);
+						System.out.println((user) + "was added");
+						}
+						break;
+					case "edit": 
+						//edit an item
+						String user = getUser();
+						String editUser = Console.getString("Edited user: ");
+						int idx = users.indexOf(user);
+						user.set(idx, editUser);
+						System.out.println("user " + (idx+1)+ "was updated.");
+						break; 
+					case "drop":
+						//delete an item
+						users = getUser();
+						users.remove(user);
+						System.out.println(user + "was dropped");
+						break;
+					case "exit": 
+						//exit game
+						break;
+						default: 
+							System.out.println("Invalid command. Try again.");
+					}
+					
+				}
+				
+				
+				System.out.println("bye!");
+
+			}
+			//prompt user for an item # and return item
+			private static String getUser(){
+				int userNbr = Console.getInt("Number: ", 0, users.size()+1);
+				String str = users.get(userNbr-1);
+				return str;
+				}
+				
+
+			
+			private static String getDisplayMenu() {
+				String menu = "\nCOMMAND MENU\n" + "List - List all users \n" + "get - Get a user\n" + "edit - Edit a user\n" + "delete - delete user" + "exit - Exit App\n" + 
+						" \r\n" + 
+						"Command:";
+				
+				return menu; 
+			}
+
+			{ 
+				
+			}
+
+
+	}
+
+

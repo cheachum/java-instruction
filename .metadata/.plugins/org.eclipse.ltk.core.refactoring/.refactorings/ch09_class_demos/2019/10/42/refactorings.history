@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Console.java&apos; to &apos;ch09_prj2_Account_Balance_Calc/src&apos;&#x0D;&#x0A;- Original project: &apos;ch09_class_demos&apos;&#x0D;&#x0A;- Destination element: &apos;ch09_prj2_Account_Balance_Calc/src&apos;&#x0D;&#x0A;- Original element: &apos;Console.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=ch09_prj2_Account_Balance_Calc/src" element1="/src&lt;{Console.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1571166079842" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+package ui;
+import java.util.Arrays;
+import business.Student;
+
+public class Student_Scores_App {
+
+	public static void main(String[] args) {
+		Student[] student = new Student [4];
+		double score = 0;
+		Student s1 = new Student("firstName", "lastName", score);
+		Student s2 = new Student("firstName", "lastName", score);
+		Student s3 = new Student("firstName", "lastName", score);
+		Student[] sts = { s1, s2, s3};
+
+	}
+
+}

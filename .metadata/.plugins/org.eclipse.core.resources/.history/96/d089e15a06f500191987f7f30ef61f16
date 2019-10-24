@@ -1,0 +1,19 @@
+package business;
+
+public class User {
+	private int id; 
+	private String userName;
+	private String password;
+	private String lastName;
+	private String phoneNumber;
+	private String email; 
+	private boolean isReviewer;
+	private boolean isAdmin; 
+	
+	
+	
+	
+	
+	
+
+}

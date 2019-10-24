@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Console.java&apos; to &apos;ch09_class_demos/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;ch08_prj2_project_manager&apos;&#x0D;&#x0A;- Destination element: &apos;ch09_class_demos/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;Console.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=ch09_class_demos/src&lt;" element1="/src&lt;{Console.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1571156821377" units="1" version="1.0"/>
+</session>

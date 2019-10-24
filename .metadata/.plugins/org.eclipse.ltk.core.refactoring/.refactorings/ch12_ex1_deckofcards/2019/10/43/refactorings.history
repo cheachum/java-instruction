@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ch12_ex1_deckofcards&apos; to &apos;ui&apos;&#x0D;&#x0A;- Original project: &apos;ch12_ex1_deckofcards&apos;&#x0D;&#x0A;- Original element: &apos;ch12_ex1_deckofcards/src/ch12_ex1_deckofcards&apos;&#x0D;&#x0A;- Renamed element: &apos;ch12_ex1_deckofcards/src/ui&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ch12_ex1_deckofcards&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ch12_ex1_deckofcards" name="ui" qualified="false" references="true" stamp="1571685714587" textual="false" version="1.0"/>
+</session>
