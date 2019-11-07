@@ -4,6 +4,7 @@
 /RemoteSystemsTempFiles
 /Servers
 /bin
+bin
 *.java.hsp
 *.sonarj
 *.sw*
